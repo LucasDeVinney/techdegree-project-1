@@ -115,6 +115,15 @@ h1 {
   font-style: normal;
 }
 
+.typeOfContent:before {
+  content: "Taken from a(n) ";
+  font-style: normal;
+}
+
+.typeOfContent {
+  font-style: normal;
+}
+
 @media (min-width: 768px) {
   body {
     padding: 25px;
