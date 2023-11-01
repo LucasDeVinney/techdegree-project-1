@@ -12,7 +12,7 @@ const quotes = [
   { // quote object includes quote, source, citation and type of content the quote was taken from (typeOfContent)
     quote: "Three can keep a secret, if two of them are dead.",
     source: "Benjamin Franklin",
-    year: 1735,
+    year: 1735
   },
   {
     quote: "Tis better to have loved and lost than never to have loved at all.",
@@ -85,20 +85,17 @@ function printQuote() {
 
   // 3. If statement to check if the citation property exists
   if (quoteObject.citation) {
-    html += `<span class="citation">${quoteObject.citation}</span>;
-    `;
+    html += `<span class="citation">${quoteObject.citation}</span>`;
   }
 
   // 4. If statement to check if the year property exists
   if (quoteObject.year) {
-    html += `<span class="year">${quoteObject.year}</span>;
-    `;
+    html += `<span class="year">${quoteObject.year}</span>`;
   }
 
   // If statement to check if the typeOfContent property exists
   if (quoteObject.typeOfContent) {
-    html += `<span class="typeOfContent">${quoteObject.typeOfContent}</span>;
-    `;
+    html += `<span class="typeOfContent">${quoteObject.typeOfContent}</span>`;
   }
 
   // 5. Close the p tag

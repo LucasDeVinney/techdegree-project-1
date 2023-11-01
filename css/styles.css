@@ -116,7 +116,7 @@ h1 {
 }
 
 .typeOfContent:before {
-  content: "Taken from a(n) ";
+  content: ", Taken from a(n) ";
   font-style: normal;
 }
 
