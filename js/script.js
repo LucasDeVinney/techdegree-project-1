@@ -5,7 +5,7 @@ project 1 - A Random Quote Generator
 
 // NOTE: Utilized Stack Overflow (https://stackoverflow.com/questions/5195303/set-css-property-in-javascript)
 // to learn about how to access css styles of an element.
-// Used only at line 112
+// Used only at line 109
 
 // Creates array of quote objects.
 const quotes = [
